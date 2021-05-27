@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/addsFragment">
+
+    <fragment
+        android:id="@+id/addsFragment"
+        android:name="com.example.roomfinder.Views.AddsFragment"
+        android:label="fragment_adds"
+        tools:layout="@layout/fragment_adds"/>
+    <fragment
+        android:id="@+id/addFragment"
+        android:name="com.example.roomfinder.Views.AddFragment"
+        android:label="fragment_adds"
+        tools:layout="@layout/fragment_add"/>
+    <fragment
+        android:id="@+id/messagesFragment"
+        android:name="com.example.roomfinder.Views.MessagesFragment"
+        android:label="fragment_messages"
+        tools:layout="@layout/fragment_messages"/>
+    <fragment
+        android:id="@+id/newAddFragment"
+        android:name="com.example.roomfinder.Views.NewAddFragment"
+        android:label="fragment_new_add"
+        tools:layout="@layout/fragment_new_add"/>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.roomfinder.Views.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="com.example.roomfinder.Views.ChatFragment"
+        android:label="fragment_chat"
+        tools:layout="@layout/fragment_chat" />
+</navigation>

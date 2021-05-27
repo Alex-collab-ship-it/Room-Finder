@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_map">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:textSize="40dp"
+            android:layout_centerVertical="true"
+            android:text="Создание аккаунта"
+            android:textColor="#000"
+            android:gravity="center_horizontal"/>
+
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_margin="25dp"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:background="@drawable/rounded_main_window"
+            android:layout_height="370dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Логин"
+                    android:textColor="#000"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="20dp"/>
+
+                <EditText
+                    android:layout_width="190dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp"
+                    android:paddingLeft="10dp"
+                    android:layout_marginLeft="39dp"
+                    android:background="@drawable/inpt_rounded"
+                    android:id="@+id/login_input"
+                    android:hint="Example123"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Пароль"
+                    android:textColor="#000"
+                    android:layout_marginTop="7dp"
+                    android:textSize="20dp" />
+
+                <EditText
+                    android:layout_width="190dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="7dp"
+                    android:paddingLeft="10dp"
+                    android:inputType="textPassword"
+                    android:background="@drawable/inpt_rounded"
+                    android:id="@+id/pas1_inpt"
+                    android:hint="Example-123"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp">
+
+                <TextView
+                    android:layout_width="69dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:text="Повторите пароль"
+                    android:textColor="#000"
+                    android:textSize="13dp" />
+
+                <EditText
+                    android:layout_width="190dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="29dp"
+                    android:layout_marginTop="7dp"
+                    android:paddingLeft="10dp"
+                    android:inputType="textPassword"
+                    android:background="@drawable/inpt_rounded"
+                    android:id="@+id/pas2_inpt"
+                    android:hint="Example-123"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:text="Имя"
+                    android:layout_marginTop="7dp"
+                    android:textColor="#000"
+                    android:textSize="20dp" />
+
+                <EditText
+                    android:layout_width="190dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="53dp"
+                    android:layout_marginTop="7dp"
+                    android:paddingLeft="10dp"
+                    android:background="@drawable/inpt_rounded"
+                    android:id="@+id/name_inpt"
+                    android:hint="Ваше имя"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Фамилия"
+                    android:layout_marginTop="7dp"
+                    android:textColor="#000"
+                    android:textSize="20dp" />
+
+                <EditText
+                    android:id="@+id/surname_inpt"
+                    android:layout_width="190dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginLeft="10dp"
+                    android:paddingLeft="10dp"
+                    android:background="@drawable/inpt_rounded"
+                    android:hint="Ваша фамилия" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Телефон"
+                    android:layout_marginTop="7dp"
+                    android:textColor="#000"
+                    android:textSize="20dp" />
+
+                <EditText
+                    android:id="@+id/phone_inpt"
+                    android:layout_width="190dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginLeft="18dp"
+                    android:inputType="phone"
+                    android:background="@drawable/inpt_rounded"
+                    android:hint="+7 (999)-999-99-99"
+                    android:paddingLeft="10dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp">
+                <Button
+                    android:layout_width="190dp"
+                    android:layout_height="match_parent"
+                    android:textColor="#fff"
+                    android:onClick="registration"
+                    android:background="@drawable/green_btn"
+                    android:text="Зарегистрироваться"/>
+                <Button
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="35dp"
+                    android:textColor="#17a2b8"
+                    android:id="@+id/to_log_page"
+                    android:onClick="toLogPage"
+                    android:background="@drawable/login_btn"
+                    android:text="Авторизация"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <include layout="@layout/bottom_sheet"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

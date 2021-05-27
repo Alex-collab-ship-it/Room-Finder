@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Room Finder</string>
+    <string name="title_activity_main2">MainActivity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="Messages">Сообщения</string>
+    <string name="Create">Создать</string>
+    <string name="Adds">Объявления</string>
+    <string name="Profile">Профиль</string>
+</resources>

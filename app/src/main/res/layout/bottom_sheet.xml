@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    app:behavior_hideable="false"
+    android:id="@+id/bottom_sheet"
+    app:behavior_peekHeight="55dp"
+    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior"
+    android:background="#EFEFEF">
+    <View
+        android:layout_width="200dp"
+        android:layout_height="5dp"
+        android:background="@drawable/rounded_ad"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Укажите IP сервера"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorMain"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="100dp"
+        android:paddingLeft="10dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/grn_inpt"
+        android:id="@+id/ip_inpt"
+        android:hint="192.168.1.66"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/green_btn"
+        android:text="Сохранить"
+        android:padding="15dp"
+        android:onClick="saveIP"
+        android:textColor="#FFF"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="170dp"/>
+</RelativeLayout>
